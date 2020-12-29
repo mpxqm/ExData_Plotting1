@@ -1,6 +1,6 @@
 ################################################################################
 ##                                                                            ##
-##   plot1.R					      ##
+##   plot1.R					                              ##
 ##									      ##
 ##   Exploratory Data Analysis Course Project 1                               ##
 ##   2020-12                                                                  ##
@@ -140,7 +140,7 @@ x = data_relevant$Global_active_power
 hist(x,
      col="red",
      main = "Global Active Power",
-     xlab = "Global Active power (kilowatts)"
+     xlab = "Global Active Power (kilowatts)"
 )
 
 # close and save the image

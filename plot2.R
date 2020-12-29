@@ -143,7 +143,7 @@ plot(data_relevant$DateTime, data_relevant$Global_active_power,
      col = "black", 
      lwd = 1,
      xlab = "",
-     ylab =  "Global Active power (kilowatts)"
+     ylab =  "Global Active Power (kilowatts)"
 )
 
 # close and save the image

@@ -150,7 +150,7 @@ plot(data_relevant$DateTime,
      col = "black", 
      lwd = 1,
      xlab = "",
-     ylab =  "Global Active power (kilowatts)"
+     ylab =  "Global Active Power (kilowatts)"
 )
 
 # Newly created

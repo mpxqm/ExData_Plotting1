@@ -88,7 +88,8 @@ if( !file.exists(filename_full_data) )
 ##----------------------------------------------------------------------------##
 
 # Date, Time , numerics
-col_classes = c("character","character","double","double","double")
+col_classes = c("character","character","numeric","numeric","numeric",
+		"numeric","numeric","numeric","numeric")
 
 data = read.table(file = filename_full_data,header = TRUE, sep = ";",
 		  stringsAsFactors =FALSE, na.strings = "?",
